@@ -1,15 +1,29 @@
-body{
-    background-image: url(https://s1.1zoom.me/b5050/922/16_KG_Dumbbells_Black_and_white_Gym_538198_3840x2400.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Patua One', cursive;
 }
-.header .navbar{
+.fondoHeader{
+    background-image: url(https://c.wallhere.com/photos/f5/90/1920x1080_px_Fitness_Model_Gym_Clothes-589926.jpg!d);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbarHeader{
     background-image: transparent;
 }
+button a{
+    text-decoration: none;
+    color: yellow;
+}
+
 .abs-center {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
   }
+
