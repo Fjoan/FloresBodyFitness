@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!-- link de CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link de CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>BODYFITNESS</title>
+</head>
+
+<body>
+    <div class="container-fluid contactoFondo">
+        <header class="row">
+            <nav class="navbarHeader navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                  <img class="navbar-brand" src="./img/logo2.jpg" height="60px" alt="">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active text-warning" href="#">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-warning" href="./secciones/servicios.html">SERVICIOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-warning" href="./secciones/galeria.html">GALERIA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-warning" href="#">ACERCA DE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-warning " href="./secciones/contacto.html">CONTACTO</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <div class="container"></div> 
+            <h2 class="text-center">CONTACTANOS</h2>
+        </header>
+        <main>
+            <form class="formulario row" action="#" method="get">
+                <input class="col-12" type="text" placeholder="Ingresa tu nombre" name="dato1" label="enviar-nombre" required>
+                
+                <input class="col-12" type="text" placeholder="Ingresa tu apellido" name="dato2" required>
+                
+                <input class="col-12" type="number" placeholder="Ingresa tu edad" name="Edad" required>
+                
+                <input type="tel" placeholder="Telefono" name="Telefono" required>
+            
+                <div>
+                    <h3>Sexo</h3>
+                    <p>Mujer</p>
+                    <input type="radio" value="Mujer" name="sexo">
+                    <p>Hombre</p>
+                    <input type="radio" value="Hombre" name="sexo">
+                    <p>No binario</p>
+                    <input type="radio" value="No binario" name="sexo">
+                    <p>No quiero decirlo</p>
+                    <input type="radio" value="No quiero decirlo" name="sexo">
+                    <a class="btn btn-outline-warning" href="#" type="button">Registrarme</a>
+                    <div>
+                        <!-- Checkbox -->
+                        <p >Acepta terminos y condiciones?</p>
+                        <input type="checkbox" name="Acepta" value="SI" required>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </main>
+        <footer>
+            <footer class="text-center text-white" style="background-color: #f1f1f1;">
+                <!-- Copyright -->
+                <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2020 Copyright:
+                    <a class="text-dark" href="../index.html">BODYFITNESS</a>
+                </div>
+            </footer>
+        </footer>
+            
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
