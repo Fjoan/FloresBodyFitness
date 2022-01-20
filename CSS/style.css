@@ -10,17 +10,13 @@
     background-position: center;
     background-size: cover;
 }
-.img{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXEBDqSsWpHIg3FQxOQ7AiJw0smOk8rtHSw&usqp=CAU);
-    background-repeat: no-repeat;
-    
-}
-.fondoPortafolio{
-    background-image: url(https://s1.1zoom.me/b5050/922/16_KG_Dumbbells_Black_and_white_Gym_538198_3840x2400.jpg);
+.fondoInformacion{
+    background-image: url(http://centrovictoria.com/gimnasios/wp-content/uploads/2016/11/16884545891_25c510a089_b.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .navbarHeader{
     background-image: transparent;
 }
