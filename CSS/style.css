@@ -1,28 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Patua One', cursive;
 }
-.fondoHeader{
+
+.fondoHeader {
     background-image: url(https://c.wallhere.com/photos/f5/90/1920x1080_px_Fitness_Model_Gym_Clothes-589926.jpg!d);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.fondoInformacion{
+
+.fondoContacto {
     background-image: url(http://centrovictoria.com/gimnasios/wp-content/uploads/2016/11/16884545891_25c510a089_b.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.navbarHeader{
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FCFC62;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover {
+    color: #2C3D55;
+}
+
+.navbarHeader {
     background-image: transparent;
 }
-button a .yellow{
-    text-decoration: none;
-    color: yellow;
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .abs-center {
@@ -31,8 +45,8 @@ button a .yellow{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  }
-.contactoFondo{
-    background-color: gray;
 }
 
+.contactoFondo {
+    background-color: gray;
+}
