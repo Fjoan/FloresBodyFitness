@@ -27,9 +27,19 @@
 .navbar-dark .navbar-nav .nav-link.active:hover {
     color: #2C3D55;
 }
+.titulo{
+    color: white;
+}
+h1:hover{
+    color: #2C3D55;
+}
 
 .navbarHeader {
     background-image: transparent;
+}
+
+.btn-secondary{
+    color: #FCFC62;
 }
 
 .card-img {
