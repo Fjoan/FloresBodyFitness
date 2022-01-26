@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Patua One', cursive;
+}
+
+.container-fluid{
+    padding: 0;
+}
+@import "./fondos/fondo.scss";
+
+@import "./colores/colores.scss";
+
+@import "./ajustes/ajustes.scss";

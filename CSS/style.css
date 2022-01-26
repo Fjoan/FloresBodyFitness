@@ -1,65 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Patua One', cursive;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Patua One', cursive; }
+
+.container-fluid {
+  padding: 0; }
 
 .fondoHeader {
-    background-image: url(https://c.wallhere.com/photos/f5/90/1920x1080_px_Fitness_Model_Gym_Clothes-589926.jpg!d);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+  background-image: url("https://c.wallhere.com/photos/f5/90/1920x1080_px_Fitness_Model_Gym_Clothes-589926.jpg!d");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .fondoContacto {
-    background-image: url(http://centrovictoria.com/gimnasios/wp-content/uploads/2016/11/16884545891_25c510a089_b.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+  background-image: url("http://centrovictoria.com/gimnasios/wp-content/uploads/2016/11/16884545891_25c510a089_b.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.titulo {
+  color: white; }
+  .titulo:hover {
+    color: #FCFC62; }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #FCFC62;
+  color: #FCFC62; }
+  .navbar-dark .navbar-nav .nav-link.active:hover {
+    color: #2C3D55; }
 
-}
-
-.navbar-dark .navbar-nav .nav-link.active:hover {
-    color: #2C3D55;
-}
-.titulo{
-    color: white;
-}
-h1:hover{
-    color: #2C3D55;
-}
-
-.navbarHeader {
-    background-image: transparent;
-}
-
-.btn-secondary{
-    color: #FCFC62;
-}
-
-.card-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-}
+.btn-secondary {
+  color: #FCFC62; }
 
 .abs-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
 
-.contactoFondo {
-    background-color: gray;
-}
-.container-fluid{
-    padding: 0;
-}
+.card .card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center; }

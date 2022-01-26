@@ -1,0 +1,18 @@
+.titulo{
+    color: white;
+    &:hover{
+        color: #FCFC62;
+    }
+}
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FCFC62;
+
+    &:hover {
+        color: #2C3D55;
+
+    }
+}
+.btn-secondary{
+    color: #FCFC62;
+}
+
