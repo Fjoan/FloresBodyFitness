@@ -2,19 +2,19 @@
     color: white;
 
     &:hover {
-        color: #FCFC62;
+        color: $color-primario;
     }
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #FCFC62;
+    color: $color-primario;
 
     &:hover {
-        color: #2C3D55;
+        color: $color-secundario;
 
     }
 }
 
 .btn-secondary {
-    color: #FCFC62;
+    color: $color-primario;
 }
