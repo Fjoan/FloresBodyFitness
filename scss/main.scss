@@ -8,12 +8,13 @@
 .container-fluid {
     padding: 0;
 }
-@import "./variables/variables";
 
+
+//VARIABLES SIEMPRE ARRIBA
+@import "./variables/colores.scss";
+@import "./variables/mixin";
+@import "./variables/maps";
 
 
 @import "./fondos/fondo.scss";
-
-@import "./colores/colores.scss";
-
 @import "./ajustes/ajustes.scss";

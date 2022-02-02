@@ -1,0 +1,17 @@
+// MAPS + EACH (bucle)
+
+$colorIconos: (musculacion: #DD0426,
+    funcional: #D3AB9E,
+    calistenia: #FFBFA0,
+    boxeo: #AE8799,
+    crossfit: #4F7CAC,
+    hiit: #63372C,
+);
+
+@each $iconos,
+$color in $colorIconos {
+    .#{$iconos} {
+        color: $color;
+        font-size: 25px;
+    }
+}

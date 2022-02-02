@@ -13,6 +13,40 @@
         object-fit: cover;
         object-position: center;
     }
+}
 
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
 
+}
+
+.titulo {
+    color: white;
+
+    &:hover {
+        color: $color-primario;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: $color-primario;
+
+    &:hover {
+        color: $color-secundario;
+
+    }
+}
+
+.btn-secondary {
+    color: $color-primario;
+}
+
+.main {
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
 }

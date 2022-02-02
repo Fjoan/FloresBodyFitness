@@ -1,0 +1,7 @@
+Cambios para mejorar el SEO: 
+1_ Estructurè los heading por niveles
+2_aplique etiquetas meta para descripciòn 
+3_ Aplique etiquetas meta de keywords
+4_Coloque titles en todas las secciones 
+5_ Optimice las imagenes para mejorar la carga de la pagina web
+6_ Agregue descripciòn a todas las imagenes
