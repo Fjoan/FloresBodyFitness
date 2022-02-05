@@ -2,133 +2,105 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Patua One', cursive;
-}
+  font-family: "ioicons",'Patua One', cursive; }
 
 .container-fluid {
-  padding: 0;
-}
+  padding: 0; }
 
 .musculacion {
   color: #DD0426;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .funcional {
   color: #D3AB9E;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .calistenia {
   color: #FFBFA0;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .boxeo {
   color: #AE8799;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .crossfit {
   color: #4F7CAC;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .hiit {
   color: #63372C;
-  font-size: 25px;
-}
-
-@media (min-width: 568px) {
-  .Galeria {
-    width: 100%;
-    height: 10px;
-  }
-}
+  font-size: 25px; }
 
 .fondoHeader {
   background-image: url("https://c.wallhere.com/photos/f5/90/1920x1080_px_Fitness_Model_Gym_Clothes-589926.jpg!d");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .fondoContacto {
   background-image: url("http://centrovictoria.com/gimnasios/wp-content/uploads/2016/11/16884545891_25c510a089_b.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .fondoInformacion {
   background-image: url(http://activefitness.org.uk/wp-content/uploads/2020/09/9712-scaled.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .abs-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 .card .card-img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  object-position: center;
-}
+  object-position: center; }
 
 .titulo {
-  color: white;
-}
-
-.titulo:hover {
-  color: #FCFC62;
-}
+  color: white; }
+  .titulo:hover {
+    color: #FCFC62; }
 
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #FCFC62;
-}
-
-.navbar-dark .navbar-nav .nav-link.active:hover {
-  color: #2C3D55;
-}
+  color: #FCFC62; }
+  .navbar-dark .navbar-nav .nav-link.active:hover {
+    color: #A7BFE8; }
 
 .btn-secondary {
-  color: #FCFC62;
-}
+  color: #FCFC62; }
 
 .main {
   min-height: 100vh;
   margin: 0 auto;
-  text-align: center;
-}
+  text-align: center; }
 
 .carousel-iner {
-  max-height: 39rem;
-}
+  max-height: 39rem; }
 
 .card {
-  background-color: #DBE6F6;
-}
+  background-color: #DBE6F6; }
 
 .imagen {
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .imgGaleria {
   height: 550px;
-}
+  object-fit: cover;
+  object-position: center; }
 
-.Icon {
-  font-size: 60px;
-  color: #DAFFED;
-}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
-.Icon:hover {
-  color: #9BF3F0;
-}
+.buttons {
+  font-size: 40px;
+  color: #A7BFE8; }
+  .buttons:hover {
+    color: #A7BFE8; }

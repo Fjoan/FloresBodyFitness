@@ -28,7 +28,7 @@
     color: $color-primario;
 
     &:hover {
-        color: $color-secundario;
+        color: #A7BFE8;
 
     }
 }
@@ -42,22 +42,36 @@
     margin: 0 auto;
     text-align: center;
 }
-.carousel-iner{
+
+.carousel-iner {
     max-height: 39rem;
 }
-.card{
-    background-color: #DBE6F6 ;
+
+.card {
+    background-color: #DBE6F6;
 }
-.imagen{
+
+.imagen {
     border-radius: 50%;
 }
-.imgGaleria{
+
+.imgGaleria {
     height: 550px;
-    }
-.Icon{
-    font-size: 60px;
-    color: #DAFFED;
+    object-fit: cover;
+    object-position: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    font-size: 40px;
+    color: #A7BFE8;
+    // transform: rotate(45deg);
     &:hover{
-        color: #9BF3F0;
+        color: #A7BFE8;
     }
 }
