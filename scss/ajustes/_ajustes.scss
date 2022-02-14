@@ -69,9 +69,10 @@ form {
 
 .buttons {
     font-size: 40px;
-    color: #A7BFE8;
-    // transform: rotate(45deg);
-    &:hover{
-        color: #A7BFE8;
+    color: $color-secundario;
+    transform: rotate(45deg);
+
+    &:hover {
+        color: $color-primario;
     }
 }

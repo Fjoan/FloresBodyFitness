@@ -101,6 +101,7 @@ form {
 
 .buttons {
   font-size: 40px;
-  color: #A7BFE8; }
+  color: #A7BFE8;
+  transform: rotate(45deg); }
   .buttons:hover {
-    color: #A7BFE8; }
+    color: #FCFC62; }
