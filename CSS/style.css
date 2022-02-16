@@ -44,10 +44,12 @@
   background-size: cover; }
 
 .fondoInformacion {
-  background-image: url(http://activefitness.org.uk/wp-content/uploads/2020/09/9712-scaled.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-image: linear-gradient(#F4E2D8, #BA5370);
+  min-height: 5rem; }
+
+.button {
+  width: 300px;
+  margin: auto; }
 
 .abs-center {
   display: flex;
@@ -101,7 +103,7 @@ form {
 
 .buttons {
   font-size: 40px;
-  color: #A7BFE8;
+  color: #BA5370;
   transform: rotate(45deg); }
   .buttons:hover {
-    color: #FCFC62; }
+    color: #F4E2D8; }
