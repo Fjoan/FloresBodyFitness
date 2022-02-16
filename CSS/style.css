@@ -47,10 +47,6 @@
   background-image: linear-gradient(#F4E2D8, #BA5370);
   min-height: 5rem; }
 
-.button {
-  width: 300px;
-  margin: auto; }
-
 .abs-center {
   display: flex;
   flex-direction: column;
@@ -101,9 +97,21 @@ form {
   flex-direction: column;
   align-items: center; }
 
+.logo {
+  font-size: 20px;
+  color: #BA5370; }
+  .logo:hover {
+    color: #F4E2D8;
+    margin: auto; }
+
 .buttons {
-  font-size: 40px;
+  font-size: 30px;
   color: #BA5370;
-  transform: rotate(45deg); }
+  transform: rotate(130deg);
+  margin: auto; }
   .buttons:hover {
     color: #F4E2D8; }
+
+.button {
+  width: 300px;
+  margin: auto; }

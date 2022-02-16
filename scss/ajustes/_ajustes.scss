@@ -67,12 +67,28 @@ form {
     align-items: center;
 }
 
-.buttons {
-    font-size: 40px;
+.logo{
+    font-size: 20px;
     color: #BA5370;
-    transform: rotate(45deg);
+    ;
+
+    &:hover {
+        color: #F4E2D8;
+        margin: auto;
+    }
+}
+
+.buttons {
+    font-size: 30px;
+    color: #BA5370;
+    transform: rotate(130deg);
+    margin: auto;
 
     &:hover {
         color: #F4E2D8;
     }
+}
+.button {
+    width: 300px;
+    margin: auto;
 }
